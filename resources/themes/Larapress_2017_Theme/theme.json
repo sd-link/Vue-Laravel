@@ -1,0 +1,6 @@
+{
+  "name"        : "Larapress_2017_Theme",
+  "extends"     : null,
+  "views-path"  : "Larapress_2017_Theme",
+  "asset-path"  : "themes/Larapress_2017_Theme"
+}

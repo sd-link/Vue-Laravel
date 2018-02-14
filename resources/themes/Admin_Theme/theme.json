@@ -1,0 +1,6 @@
+{
+  "name"        : "Admin_Theme",
+  "extends"     : null,
+  "views-path"  : "Admin_Theme",
+  "asset-path"  : "themes/Admin_Theme"
+}

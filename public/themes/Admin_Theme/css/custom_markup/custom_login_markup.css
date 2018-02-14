@@ -1,0 +1,20 @@
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: {sidebar_main_background_color};
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background: {sidebar_sub_background_color};
+}
+
+.skin-blue .sidebar a {
+    color: {sidebar_font_color};
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    color: {sidebar_font_hover_color};
+    background: {sidebar_menu_hover_color};
+}
+
+.sidebar {
+    font-size: {sidebar_font_size}px;
+}

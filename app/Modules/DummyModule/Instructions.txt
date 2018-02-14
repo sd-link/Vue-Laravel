@@ -1,0 +1,37 @@
+----- Create a module -----
+
+	artisan make:module xxx
+
+Module will be created into path "app/Modules/MODULE_SLUG"
+
+----- Work with module Views -----
+
+	Put into  "app/Modules/MODULE_SLUG/Resources/Views"
+
+	Render with
+		view("MODULE_SLUG::view-name")
+
+	Will be looked up into paths:
+		1. app/Modules/MODULE_SLUG/Resources/Views
+		2. app/resources/themes/CURRENT_THEME
+
+
+----- Work with module Assets -----
+
+	General:
+		Module sssets should be placed into [public/modules/MODULE_SLUG].
+		View files can get a current a module asset either explicit, or with the use of "module_url('filename')" helper
+
+
+	Automate Assets publishin:
+
+	1. Manually create folder "MODULE_SLUG/Assets" into module path and place assets
+
+	2. Edit module service provider: [MODULE_SLUG/Providers/ModuleServiceProvider.php], add into boot() method:
+
+        $this->publishes([
+            __DIR__.'/../Assets' => public_path('modules/MODULE_SLUG'),
+        ], 'MODULE_SLUG');
+
+
+	3. Publish the assets into public path with [artisan vendor:publish --tag=MODULE_SLUG]

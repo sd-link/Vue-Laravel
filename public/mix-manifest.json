@@ -1,0 +1,14 @@
+{
+  "/js/content_editor.js": "/js/content_editor.js",
+  "/js/content_template_editor.js": "/js/content_template_editor.js",
+  "/js/content_type_editor.js": "/js/content_type_editor.js",
+  "/js/gallery_editor.js": "/js/gallery_editor.js",
+  "/js/taxonomy_editor.js": "/js/taxonomy_editor.js",
+  "/js/adminvue.js": "/js/adminvue.js",
+  "/js/content_index.js": "/js/content_index.js",
+  "/js/gallery_index.js": "/js/gallery_index.js",
+  "/js/todos_editor.js": "/js/todos_editor.js",
+  "/js/frontend/rendering/app.js": "/js/frontend/rendering/app.js",
+  "/css/app.css": "/css/app.css",
+  "/js/settings.js": "/js/settings.js"
+}
